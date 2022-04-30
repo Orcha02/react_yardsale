@@ -75,6 +75,6 @@
 		"description": "webpack configuration"
 	  }
 }
-- Ahora para crear el archivo de configuracion de webpack solo escribo 'wpc'
+- Ahora para crear el archivo de configuracion de webpack solo escribo `wpc`
 
 `npm run start` Habilita nuestro entorno de desarrollo local para poder ver el proyecto funcionando
