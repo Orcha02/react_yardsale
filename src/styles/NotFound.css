@@ -1,0 +1,12 @@
+div {
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+.error {
+  height: 12rem;
+}

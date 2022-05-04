@@ -88,4 +88,9 @@
 `npm run start` Habilita nuestro entorno de desarrollo local para poder ver el proyecto funcionando
 
 `imr` Imports React
-`rsc` stateless component skeleton
+`sfc` Stateless Function Component (Arrow function)
+
+# ¿Qué es router en React?
+- React es de tipo SPA(single page application), no recarga la página cuando cambiamos de url.
+- Router nos ayuda a crear otra página para poder navegar en nuestra aplicación.
+- Ej: Cuando damos click en un tweet, se abre otra sección donde puedes ver el tweet. Sería un problema que al momento de darle click, no cambie la url, por lo que ese tweet no tiene dirección propia, no se guardaría en tu historial. Para ello, usamos router, que se encargará de administrar esta situación, donde en el momento que abras el tweet, cambie la URL, pero todavía mantenga ese dinamismo y rapidez de una SPA.
