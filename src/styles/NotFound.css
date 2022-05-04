@@ -1,9 +1,9 @@
-div {
+.container {
   display: grid;
   place-items: center;
 }
 
-h1 {
+.error-title {
   font-size: 6rem;
 }
 
