@@ -133,3 +133,31 @@ Un header: logo + nav + buscador
 In the resolve section of the webpack config we can create aliases to make a more friendly code, and write shorter paths.
 
 ![image](https://user-images.githubusercontent.com/77861219/167038335-28b2865e-18cc-48a5-bcdd-55121d33cb16.png)
+
+# ¿Cómo usar useState?
+
+- useState es una manera de usar estado con los React Hooks. Recordemos que los estados son maneras en la que un componente puede administrar información cambiante en el entorno, y después de ser llamado se renderiza el React DOM de nuevo.
+
+![image](https://user-images.githubusercontent.com/77861219/167222907-d5a670d0-d577-456a-99db-818ba1c0e8f6.png)
+
+## Ejemplo React.useState:
+
+import React, {useState} from ‘react’;
+
+Crear const [uno, setUno] = useState(‘1’)
+
+Donde ‘uno’ es la variable que modificara su estado, ‘setUno’ es la función que modificara su estado al suceder X cosa, y ‘1’ es el valor inicial que tendrá esa variable
+
+- En el valor inicial o ‘1’ puede ir: bool, numero, string, objeto o array.
+
+Manejando el evento del elemento que modificara su estado, activaremos la función que recibirá el evento y activara la función ‘setUno( )’ para modificar su valor, ej: setUno(‘2’)
+
+Siempre que se recargue la página, el valor volverá a su valor inicial!
+
+![image](https://user-images.githubusercontent.com/77861219/167223440-ef7dfb49-6a58-4d5c-986f-dc38c03f845e.png)
+
+**!** => Nos cambia su valor a la inversa. Si está en False se vuelve True, y si está True se cambia a False
+
+###### En la siguiente imagen decimos que si toggle es false (Ya que se declaró antes en False) no se muestra, pero que si se vuelve verdadero que muestre el componente de Menu
+
+![image](https://user-images.githubusercontent.com/77861219/167223950-efca0db6-abcd-45b7-b4ea-2dd7b40cb27b.png)
