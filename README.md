@@ -16,6 +16,7 @@
 
 ### Aparece un json y copio lo siguiente
 
+```
 {
 // Place your snippets for javascript here. Each snippet is defined under a snippet name and has a prefix, body and
 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
@@ -30,6 +31,7 @@
 // ],
 // "description": "Log output to console"
 // }
+```
 
     "webpack config": {
     	"prefix": "wpc",
@@ -102,7 +104,7 @@
 - Ej: Los botones, textos, imágenes o entradas de texto.
 
 - **Moléculas:** Las moléculas son una unión de átomos. Todas estas moléculas, normalmente tienen una función específica para la cuál necesitan varios átomos.
-- Ej: Un comentario de twitter, una sección de youtube de ME GUSTA y NO ME GUSTA son todos moléculas. Estas están compuestas de algunos componentes más pequeños (botónes y cuadros de texto).
+- Ej: Un comentario de twitter, una sección de youtube de ME GUSTA y NO ME GUSTA son todos moléculas. Estas están compuestas de algunos componentes más pequeños (botónes, cuadros de texto o Texto + imagen).
 
 - **Organismos:** Están compuesto de muchas moléculas. Pero lo más interesante, es que tienen vida propia, y pueden interactuar en una manera muy amplia con otros organismos.
 - Ej: Imagina una abeja con una flor, ambos colaboran de una u otra manera a que el otro esté bien. En nuestro diseño, imagina al header. El header está compuesto de muchos elementos, y tienen un impacto muy grande en la app. O incluso, de una sección como una tienda de ropa en la paǵina web. Seguramente te das cuenta, que estos tienen muchos artículos, y todos constan de una imaǵen, precio, y un ordenamiento. Puedes verlo así:
@@ -113,8 +115,21 @@ Molécula ⇒ el cuadro que contiene a la imágen, al precio y a la descripción
 
 Organismo ⇒ todos los cuadros ordenados en forma de tabla.
 
-El organismo si te das cuenta, puede usar moléculas del mismo tipo o diferentes. El punto clave, es que no trates de abarcar tanto, y que pertenecen a una sección claramente definida en nuestra app.
+**Es la unión de moléculas.**
+Un header: logo + nav + buscador
 
-- **Templates:** Es la plantilla en la cual siempre organizarás los organismos. Es decir, el esqueleto que indica donde irá por ejemplo, el Header, el footer, grid y sección de comentarios.
+- **Templates:** Es la plantilla en la cual siempre organizarás los organismos. Es decir, el esqueleto que indica donde irá por ejemplo, el Header, el footer, grid y sección de comentarios. La unión de organismos de forma estructurada formando una sección: Home, about, etc.
 
-- **Pages:** Finalmente tenemos a la constitución de nuestra app. Las pages son en sí, toda la página funcionando con contenido interactúando entre ellas.
+- **Pages:** Finalmente tenemos a la constitución de nuestra app. Las pages son en sí, toda la página funcionando con contenido interactúando entre ellas. Es la combinación del template, API e interacciones del usuario.
+
+# Tipos de componentes en React: stateful vs. stateless
+
+- Stateful: Logica y estado.
+
+- Stateless: Presentacionales, solo retorna un template.
+
+# Aliases
+
+In the resolve section of the webpack config we can create aliases to make a more friendly code, and write shorter paths.
+
+![image](https://user-images.githubusercontent.com/77861219/167038335-28b2865e-18cc-48a5-bcdd-55121d33cb16.png)
