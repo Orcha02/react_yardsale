@@ -161,3 +161,9 @@ Siempre que se recargue la página, el valor volverá a su valor inicial!
 ###### En la siguiente imagen decimos que si toggle es false (Ya que se declaró antes en False) no se muestra, pero que si se vuelve verdadero que muestre el componente de Menu
 
 ![image](https://user-images.githubusercontent.com/77861219/167223950-efca0db6-abcd-45b7-b4ea-2dd7b40cb27b.png)
+
+#### used API: `https://api.escuelajs.co/docs/#/`
+
+# useEffect:
+
+- Es una manera de que nuestro componente de React, puede recibir nueva info, re-renderizar o cambiar su contenido cuando una función se haya completado.
